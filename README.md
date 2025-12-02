@@ -11,20 +11,9 @@ Log2Text 能够提取纯对话内容，让你在补充上下文时更加高效�
 
 ##  安装
 
-### 方式一：直接下载 exe
+从 [Releases](https://github.com/aukmiriaP/Log2Text/releases) 页面下载 `Log2Text.exe`，双击运行即可。
 
-直接从 [Releases](https://github.com/你的用户名/Log2Text/releases) 页面下载 `Log2Text.exe`，双击运行即可。
 
-### 方式二：从源码运行
-
-```bash
-# 克隆仓库
-git clone https://github.com/你的用户名/Log2Text.git
-cd Log2Text
-
-# 运行 GUI 程序
-python clean_log_gui.py
-```
 
 ## 使用方法
 
