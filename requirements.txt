@@ -1,0 +1,5 @@
+# Log2Text 依赖
+# 注意：tkinter 是 Python 自带的，不需要额外安装
+
+# 以下仅用于打包 exe（普通用户不需要）
+pyinstaller>=6.0.0
