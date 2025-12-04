@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import sys
 
 def clean_log(file_path):
     try:
@@ -93,6 +94,8 @@ def clean_log(file_path):
     return result_msg
 
 if __name__ == "__main__":
-    # The file name provided by the user
-    target_file = r"d:\class\projects\Log2Text\漫画：无限与不可逆。"
-    print(clean_log(target_file))
+    if len(sys.argv) > 1:
+        target_file = sys.argv[1]
+        print(clean_log(target_file))
+    else:
+        print("Usage: python clean_log.py <path_to_log_file>")
